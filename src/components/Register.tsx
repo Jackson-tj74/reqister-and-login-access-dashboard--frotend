@@ -57,7 +57,7 @@ const Register: React.FC = () => {
 
                 {message && <p className="message">{message}</p>}
 
-                {/* MOVE inside card for better styling */}
+           
                 <p className="switch-login">
                     Already have an account?{" "}
                     <Link to="/login">Login</Link>
